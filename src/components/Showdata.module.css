@@ -1,0 +1,62 @@
+.box {
+    margin: 10px;
+    padding: 10px;
+    min-height: 90%;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.116);
+    font-size: larger;
+}
+
+
+
+.big{
+    font-size: 3rem;
+}
+
+.blur{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.514);
+}
+
+.linear{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.huwind{
+    padding: 20px;
+    text-align: center;    
+}
+
+.photos{
+    display: flex;
+    justify-content: space-between;
+}
+
+@keyframes rotate {
+    0% { 
+        transform: (0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.c {
+    animation: rotate 4s linear infinite;
+    
+
+}
+/* 
+//     data.coord.lat
+// data.coord.lon
+// data.main.feels_like
+// data.main.humidity
+// data.main.temp
+// data.main.sealevel
+// data.name
+// data.weather.description
+// data.wind.speed */

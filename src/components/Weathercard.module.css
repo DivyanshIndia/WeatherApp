@@ -1,0 +1,43 @@
+.wCard {
+    margin: auto;
+    border: 2px solid pink;
+    padding: 20px;
+    width : 50%;
+    height: 70%;
+    border-radius: 10px;
+    background-image: url("cardbg.jpg");
+    background-size: cover;
+    
+}
+
+@keyframes rotate {
+    0% { 
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.circle {
+    animation: rotate 4s linear infinite;
+    width: fit-content;
+    
+
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    padding-left: 10%;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color:bisque;
+    background-color: black;
+}
+
+

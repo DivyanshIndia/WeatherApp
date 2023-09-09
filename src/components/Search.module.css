@@ -1,0 +1,29 @@
+.icon {
+    background: transparent;
+    border: none;
+    transition: transform 0.7s ease-in-out;
+    
+}
+
+.contain {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+.textType {
+    width: 40%;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    padding : 10px;
+    font-size: 1.2rem;
+}
+
+.icon:hover{
+    opacity: 0.5;
+    transform: rotate(360deg)
+}
+
